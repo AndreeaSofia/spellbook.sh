@@ -1,0 +1,61 @@
+⚙️ Configuration (First-Time Setup)
+─────────────────────────────
+  git config --global user.name "Your Name"         # Set your name for commits
+  git config --global user.email "you@example.com"  # Set your email for commits
+  git config --list                                 # View your current config
+
+🔧 Basic Git Commands
+──────────────────────
+  git init                     # Initialize a new Git repository
+  git clone <url>              # Clone a remote repository
+  git status                   # Show changes (tracked/untracked)
+  git add <file>               # Stage a file
+  git add .                    # Stage all changes
+  git commit -m "message"      # Commit staged changes
+  git log                      # View commit history
+
+🌿 Branching
+─────────────
+  git branch                   # List local branches
+  git branch <name>            # Create a new branch
+  git checkout <name>          # Switch to a branch
+  git checkout -b <name>       # Create and switch to new branch
+
+🌐 Remote
+──────────
+  git remote -v                # Show remote URLs
+  git remote add origin <url>  # Add a remote repo
+  git push origin <branch>     # Push to remote branch
+  git pull                     # Pull latest changes
+
+♻️ Undoing Mistakes
+─────────────────────
+  git restore <file>           # Unstage or restore changes
+  git reset HEAD~1             # Undo last commit (keep changes)
+  git revert <commit>          # Create a commit that undoes another
+
+📦 Stashing
+─────────────
+  git stash                    # Save uncommitted changes
+  git stash apply              # Reapply stashed changes
+
+🏷️ Tagging
+─────────────
+  git tag                      # List tags
+  git tag <name>               # Create a new tag
+  git show <tag>               # Show tag details
+
+🔍 Searching & Logs
+─────────────────────
+  git log --oneline            # Condensed log view
+  git log --graph --decorate   # Graphical branch log
+  git grep "text"              # Search tracked files
+
+🧹 Cleanup
+─────────────
+  git clean -n                 # Preview untracked files to delete
+  git clean -f                 # Delete untracked files
+
+🔐 Safety
+─────────────
+  git config --global alias.undo "reset HEAD~1 --mixed"  # Quick undo alias

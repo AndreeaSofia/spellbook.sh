@@ -1,0 +1,49 @@
+🧙‍♂️ VS Code Essentials
+─────────────────────────────
+  code .                       # Open current folder in VS Code
+  code <file>                  # Open a specific file
+  Ctrl + `                     # Toggle terminal inside VS Code
+  Ctrl + P                     # Quick file navigation
+  Ctrl + Shift + P             # Command Palette (run commands)
+  Ctrl + B                     # Toggle sidebar
+
+🛠️ Editing Shortcuts
+─────────────────────────────
+  Ctrl + D                     # Select next instance of word
+  Ctrl + /                     # Toggle line comment
+  Alt + Up/Down                # Move line up/down
+  Ctrl + Shift + K             # Delete line
+  Ctrl + Space                 # Trigger IntelliSense
+
+📁 File Management
+─────────────────────────────
+  Ctrl + N                     # New file
+  Ctrl + S                     # Save
+  Ctrl + Shift + S             # Save as...
+  Ctrl + W                     # Close current tab
+  Ctrl + K → Ctrl + W          # Close all tabs
+
+🔍 Searching & Navigation
+─────────────────────────────
+  Ctrl + F                     # Find in file
+  Ctrl + H                     # Find & replace
+  Ctrl + Shift + F             # Find in all files
+  Ctrl + Tab                   # Switch tabs
+
+🧩 Extensions & Settings
+─────────────────────────────
+  Ctrl + Shift + X                        # Open extensions panel
+  Ctrl + ,                                # Open settings
+  Ctrl + Shift + P → "Install Extensions" # Install extensions via command palette
+  code --install-extension <id>           # Install extension via terminal
+
+🐞 Debugging
+─────────────────────────────
+  F5                           # Start debugger
+  Shift + F5                   # Stop debugger
+  F9                           # Toggle breakpoint
+
+💡 Tips
+─────────────────────────────
+  .vscode/settings.json        # Workspace-specific settings
+  .vscode/launch.json          # Debug configurations
