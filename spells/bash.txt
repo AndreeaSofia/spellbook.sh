@@ -1,0 +1,50 @@
+🖥️ Basic Navigation & Files
+─────────────────────────────
+  pwd                          # Print current working directory
+  ls                           # List directory contents
+  ls -la                       # Long list with hidden files
+  cd <folder>                  # Change directory
+  cd ..                        # Go up one directory
+  mkdir <folder>               # Create a new folder
+  touch <file>                 # Create an empty file
+  rm <file>                    # Remove a file
+  rm -r <folder>               # Remove a folder and its contents
+
+🛠️ Working with Files
+─────────────────────────────
+  cp <src> <dest>              # Copy file or folder
+  mv <src> <dest>              # Move or rename
+  cat <file>                   # Print file contents
+  less <file>                  # View file (scrollable)a
+  head <file>                  # Show first 10 lines
+  tail <file>                  # Show last 10 lines
+  nano <file>                  # Edit file in terminal
+  echo "text" > file.txt       # Write text to file
+
+🔍 Searching & Finding
+─────────────────────────────
+  grep "text" <file>           # Search inside a file
+  grep -r "text" <folder>      # Recursive search in a folder
+  find . -name "*.sh"          # Find files by name
+  which <command>              # Show full path to a command
+
+⚙️ Permissions & Execution
+─────────────────────────────
+  chmod +x <file>              # Make file executable
+  ./script.sh                  # Run script in current directory
+  whoami                       # Current user
+  sudo <command>               # Run with superuser privileges
+
+♻️ Processes & System Info
+─────────────────────────────
+  ps aux                       # Show running processes
+  top                          # Live system monitor
+  kill <pid>                   # Kill a process by PID
+  df -h                        # Disk usage
+  free -h                      # RAM usage
+
+📦 Archives & Compression
+─────────────────────────────
+  tar -czf archive.tar.gz <dir>  # Create compressed archive
+  tar -xzf archive.tar.gz        # Extract archive
+  unzip file.zip                 # Unzip a .zip file
